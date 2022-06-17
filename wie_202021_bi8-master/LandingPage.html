@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images/logo.png" alt="A" width="35" height="35">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agoral</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body> 
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="images/logo.png" style="width:50px; border-radius: 50%;">
+
+        <a class="navbar-brand" href="#home">Agoral</a>
+        <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" aria-expanded="false" 
+        aria-label="Toggle navigation" aria-controls="toggleMobileMenu" data-bs-target="#toggleMobileMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-selected="true" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#room">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="container-fluid">
+        <div id="overlay">
+        <section id="home" style="overflow:auto">
+            <h1>Hi! Welcome to Agoral</h1>
+            <p> This is your safe space. <br> Scroll for more!</p>
+        </section>
+        </div>
+        <section id="room" style="overflow:auto">
+            <h1>Our Rooms</h1>
+         <td><p style="padding: 1em; background-color: rgba(128, 128, 128, 0.4);">Feeling like watching a movie? Get to the Movies Room! How about reading a book? The Books Room won't let you down! Want to enjoy some good basketball highlights? You can thank us later, the Sport Room is also here. 
+In each room you’ll be able to speak your mind through images, songs, quotes and so on thanks to our pinboards, where you will also see what other users have posted. 
+ Hope you’ll have fun, see you in there!</p></td> 
+
+            <div>
+              <a href="music.php"><button type="button" class="btn btn-outline-light">MUSIC</button></a>
+              <a href="art.php"><button type="button" class="btn btn-outline-light">ART</button></a>
+              <a href="sport.php"><button type="button" class="btn btn-outline-light">SPORT</button></a> 
+            </div>
+        </section>
+        <section id="contact" style="overflow:auto">
+            <h1>This is Us</h1>
+        
+            <p style="padding: 1em; background-color: rgba(100, 100, 100, 0.4);">We are a team of four Business Informatics students from the Free University of Bozen and we have been putting our hearts and souls into this project because we all have personally struggled with the social situation covid has caused us and we would love to make our mark and hopefully make a difference. If you want to learn more about us, visit our team page!  </p>
+            
+            <a href="TeamPage.html"><button type="button" class="btn btn-outline-light">TEAM PAGE</button></a>
+
+        </section>
+        <section id="ouridea" style="overflow:auto">
+            <h1>How did we come up with this</h1>
+            <p style="padding: 1em; background-color: rgba(100, 100, 100, 0.2)"> Being four young students, we have directly suffered the impact of this pandemic. We created this space for all to be able to connect and share thoughts, ideas and feelings with others, all anonimously, without stressing about the toxicity that we are brought to when using social networks. We built a platform in which anybody can develop ideas they are afraid to show, share them with the world and feel less alone in whatever thought they have running through their mind. 
+            </p>
+        </section>
+            
+        <section id="footer" style="height:400px; overflow:auto;">
+          <ul>
+            <li>
+              <div class="col">
+                <ul class="social-icons">
+                  <div class="footer1">
+                  <li><h4>You can find us here:</h4></li>
+                  </div>
+                  <div class="footer2">
+                  <li><a class="facebook" href="https://facebook.com" inputmode="submit"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="https://twitter.com" inputmode="submit"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="https://www.linkedin.com" inputmode="submit"><i class="fa fa-linkedin"></i></a></li> 
+                 </div> </ul>
+            </li>
+      
+             <li>
+               <div class="footer3">
+            <form action=mailto:agoral@gmail.com method=”POST” class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom01">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom02">Last name</label> 
+                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary custom" type="submit"><a>Submit</a></button>
+            </form>
+            </div>
+            </li>
+            </ul>
+            </section>
+    
+    <script>
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+
+</body>
+</html>
